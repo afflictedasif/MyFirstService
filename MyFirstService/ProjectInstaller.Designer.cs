@@ -40,8 +40,9 @@
             // serviceInstaller1
             // 
             this.serviceInstaller1.Description = "My First Service demo";
-            this.serviceInstaller1.DisplayName = "MyFirstService.Demo";
-            this.serviceInstaller1.ServiceName = "Service1";
+            this.serviceInstaller1.DisplayName = "MyFirstService";
+            this.serviceInstaller1.ServiceName = "MyFirstService";
+            this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller
             // 

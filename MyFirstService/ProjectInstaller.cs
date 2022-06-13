@@ -13,6 +13,8 @@ namespace MyFirstService
     {
         public ProjectInstaller()
         {
+            this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
+
             InitializeComponent();
         }
     }

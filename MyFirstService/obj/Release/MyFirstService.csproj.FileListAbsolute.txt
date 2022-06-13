@@ -1,0 +1,14 @@
+D:\Git\MyFirstService\MyFirstService\bin\Release\MyFirstService.exe.config
+D:\Git\MyFirstService\MyFirstService\bin\Release\MyFirstService.exe.manifest
+D:\Git\MyFirstService\MyFirstService\bin\Release\MyFirstService.application
+D:\Git\MyFirstService\MyFirstService\bin\Release\MyFirstService.exe
+D:\Git\MyFirstService\MyFirstService\bin\Release\MyFirstService.pdb
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.csproj.AssemblyReference.cache
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.csproj.SuggestedBindingRedirects.cache
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.ProjectInstaller.resources
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.csproj.GenerateResource.cache
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.csproj.CoreCompileInputs.cache
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.exe.manifest
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.application
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.exe
+D:\Git\MyFirstService\MyFirstService\obj\Release\MyFirstService.pdb

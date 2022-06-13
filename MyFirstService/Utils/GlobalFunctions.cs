@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -32,6 +33,26 @@ namespace MyFirstService.Utils
                     sw.WriteLine(Message);
                 }
             }
+        }
+
+        public static bool IsProgramRunning(string FullPath)
+        {
+            string FilePath = Path.GetDirectoryName(FullPath);
+            string FileName = Path.GetFileNameWithoutExtension(FullPath).ToLower();
+            bool isRunning = false;
+
+            Process[] pList = Process.GetProcessesByName(FileName);
+
+            foreach (Process p in pList)
+            {
+                if (p.MainModule.FileName.StartsWith(FilePath, StringComparison.InvariantCultureIgnoreCase))
+                {
+                    isRunning = true;
+                    break;
+                }
+            }
+
+            return isRunning;
         }
     }
 }
