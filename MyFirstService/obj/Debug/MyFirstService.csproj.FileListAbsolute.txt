@@ -1,0 +1,14 @@
+D:\VS Repos\MyFirstService\MyFirstService\bin\Debug\MyFirstService.exe.config
+D:\VS Repos\MyFirstService\MyFirstService\bin\Debug\MyFirstService.exe
+D:\VS Repos\MyFirstService\MyFirstService\bin\Debug\MyFirstService.pdb
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.csproj.AssemblyReference.cache
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.csproj.SuggestedBindingRedirects.cache
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.ProjectInstaller.resources
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.csproj.GenerateResource.cache
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.csproj.CoreCompileInputs.cache
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.exe
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.pdb
+D:\VS Repos\MyFirstService\MyFirstService\bin\Debug\MyFirstService.exe.manifest
+D:\VS Repos\MyFirstService\MyFirstService\bin\Debug\MyFirstService.application
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.exe.manifest
+D:\VS Repos\MyFirstService\MyFirstService\obj\Debug\MyFirstService.application
