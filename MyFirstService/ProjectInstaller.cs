@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyFirstService.Utils;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +14,14 @@ namespace MyFirstService
     {
         public ProjectInstaller()
         {
-            this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
-
             InitializeComponent();
+        }
+
+        private void serviceInstaller2_AfterInstall(object sender, InstallEventArgs e)
+        {
+            this.serviceInstaller2.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
+
+            GlobalFunctions.WriteToFile($" StartType: {this.serviceInstaller2.StartType}");
         }
     }
 }
