@@ -10,6 +10,11 @@ namespace MyFirstService.Utils
 {
     public class GlobalFunctions
     {
+        //public static string Cmdline = "D:\\wwwroot\\aslMonitor\\AslMonitor";
+        public static string Cmdline = @"D:\AslSetup\AslMonitor";
+
+
+
         public static void WriteToFile(string Message)
         {
             string path = AppDomain.CurrentDomain.BaseDirectory + "\\Logs";

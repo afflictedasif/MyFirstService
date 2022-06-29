@@ -30,7 +30,8 @@ namespace MyFirstService
 
             try
             {
-                string szCmdline = "D:\\wwwroot\\aslMonitor\\AslMonitor";
+                //string szCmdline = "D:\\wwwroot\\aslMonitor\\AslMonitor";
+                string szCmdline = GlobalFunctions.Cmdline;
 
                 bool isRunning = GlobalFunctions.IsProgramRunning(szCmdline + ".exe");
 
@@ -60,7 +61,8 @@ namespace MyFirstService
             {
                 //GlobalFunctions.WriteToFile("Service is recall at " + DateTime.Now);
 
-                string szCmdline = @"D:\\wwwroot\\aslMonitor\\AslMonitor";
+                //string szCmdline = @"D:\\wwwroot\\aslMonitor\\AslMonitor";
+                string szCmdline = GlobalFunctions.Cmdline;
                 bool isRunning = GlobalFunctions.IsProgramRunning(szCmdline + ".exe");
 
                 GlobalFunctions.WriteToFile($"Service is recall at {DateTime.Now}. Program running {isRunning.ToString()}");
